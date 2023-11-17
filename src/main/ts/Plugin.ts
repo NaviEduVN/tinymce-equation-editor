@@ -666,7 +666,7 @@ const setup = (editor, url) => {
         title: 'Editor de ecuaciones',
         text: 'f(x)',
         onAction: () => {
-            editor.execCommand('equation-window');
+            editor.execCommand('equation-window', {});
         },
     });
 };
