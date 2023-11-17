@@ -589,7 +589,9 @@ const setup = (editor, url) => {
 
     // ----- Events ----- //
     editor.on('init', () => {
-        setOnClickEquationContent(editor);
+        setTimeout(() => {
+            setOnClickEquationContent(editor);
+        }, 500);
     });
 
     // ----- Commands ----- //
