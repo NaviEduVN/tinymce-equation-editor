@@ -65,8 +65,8 @@ var app = new Vue({
             });
 
             if (typeof this.mathLiveConfig === 'object') {
-                if (Object.keys(this.mathLiveConfig).length) {
-                    this.mathField.setOptions(this.mathLiveConfig);
+                for (const [key, value] of Object.entries(this.mathLiveConfig)) {
+                    this.mathField[key] = value;
                 }
             }
 
