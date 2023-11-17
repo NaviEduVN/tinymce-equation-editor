@@ -602,7 +602,7 @@ const setup = (editor, url) => {
             url: editorSettings.url,
             title: editorSettings.title,
             width: 820,
-            height: 400,
+            height: 500,
             buttons: [
                 {
                     type: 'cancel',
