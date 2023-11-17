@@ -43,6 +43,7 @@
         "webpack-livereload-plugin": "^2.1.1"
     },
     "files": [
+        "dist",
         "lib/main",
         "lib/demo",
         "lib/test",
