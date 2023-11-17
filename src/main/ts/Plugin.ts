@@ -566,12 +566,12 @@ const setup = (editor, url) => {
             },
             {
                 text: 'y^x',
-                latex: '^',
+                latex: 'y^x',
                 cmd: true,
             },
             {
                 text: '\\sqrt{x}',
-                latex: '\\sqrt',
+                latex: '\\sqrt{x}',
                 cmd: true,
             },
             {
@@ -583,9 +583,6 @@ const setup = (editor, url) => {
                 latex: '\\log_b',
                 text: '\\log_b',
                 cmd: false,
-            },
-            {
-                text: 'e^x',
             },
         ];
     }
