@@ -182,12 +182,12 @@ const setup = (editor, url) => {
                     buttons: [
                         {
                             cmd: true,
-                            latex: '^',
+                            latex: 'y^x',
                             text: 'y^x',
                         },
                         {
                             cmd: true,
-                            latex: '\\sqrt',
+                            latex: '\\sqrt{x}',
                             text: '\\sqrt{x}',
                         },
                         {
