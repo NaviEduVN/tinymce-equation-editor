@@ -21,6 +21,8 @@ interface EditorSettings {
     btn_cancel_text: string;
     btn_ok_text: string;
     mathlive_config?: object;
+    width?: number;
+    height?: number;
 }
 
 const setup = (editor, url) => {
@@ -601,8 +603,8 @@ const setup = (editor, url) => {
         editor.windowManager.openUrl({
             url: editorSettings.url,
             title: editorSettings.title,
-            width: 820,
-            height: 500,
+            width: editorSettings?.width ?? 820,
+            height: editorSettings?.height ?? 500,
             buttons: [
                 {
                     type: 'cancel',
