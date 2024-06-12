@@ -518,6 +518,10 @@ const setup = (editor, url) => {
                             cmd: false,
                             text: '\\infty',
                         },
+                        {
+                            cmd: true,
+                            text: '\\mathbb{Q}',
+                        },
                     ],
                 },
                 {
