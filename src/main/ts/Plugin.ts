@@ -654,10 +654,7 @@ const setup = (editor, url) => {
         }
 
         // Add span.mq-math-mode
-        const content = `
-            <span class='mq-math-mode' data-latex='${data.latex}'>
-                ${data.html}
-            </span>${editorSettings.space_after_content}`;
+        const content = `<span class='mq-math-mode' data-latex='${data.latex}'>${data.html}</span>${editorSettings.space_after_content}`;
 
         if (data.currentTarget) {
             editor.selection.select(data.currentTarget);
