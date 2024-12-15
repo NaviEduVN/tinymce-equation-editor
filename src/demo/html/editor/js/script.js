@@ -58,7 +58,12 @@ var app = new Vue({
 
         initEquation() {
             this.mathField = new MathfieldElement();
-            
+
+            this.mathField.inlineShortcuts = {
+                ...this.mathField.inlineShortcuts,
+                "/": "\\dfrac{#?}{#?}",
+            };
+
             this.mathField.addEventListener('input', (ev) => {
                 this.latex = this.mathField.getValue();
                 this.sendLatex();
