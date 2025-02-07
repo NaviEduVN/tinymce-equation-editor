@@ -13,8 +13,8 @@ math-field {
     margin: 10px;
     padding: 5px;
     border-radius: 8px;
-    border: 1px solid rgba(0, 0, 0, .3);
-    box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
     min-height: 100px;
     display: block;
 }
@@ -88,6 +88,11 @@ math-field {
 .col-2-container {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+span[data-latex*='\\not\\vdots'] .rlap {
+    left: -0.25rem;
+    top: -0.15rem;
 }
 
 /* Responsive for mobile */

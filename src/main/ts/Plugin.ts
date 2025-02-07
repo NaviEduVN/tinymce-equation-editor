@@ -552,6 +552,83 @@ const setup = (editor, url) => {
                         },
                     ],
                 },
+                {
+                    name: 'Relations',
+                    buttons: [
+                        {
+                            cmd: false,
+                            text: '=',
+                        },
+                        {
+                            cmd: false,
+                            text: '\\neq',
+                        },
+                        {
+                            cmd: false,
+                            text: '\\sim',
+                        },
+                        {
+                            cmd: false,
+                            text: '\\not\\sim',
+                        },
+                        {
+                            cmd: false,
+                            text: '\\lt',
+                        },
+                        {
+                            cmd: false,
+                            text: '\\gt',
+                        },
+                        {
+                            cmd: false,
+                            text: '\\approx',
+                        },
+                        {
+                            cmd: false,
+                            text: '\\not\\approx',
+                        },
+                        {
+                            cmd: false,
+                            text: '\\le',
+                        },
+                        {
+                            cmd: false,
+                            text: '\\ge',
+                        },
+                        {
+                            cmd: false,
+                            text: '\\simeq',
+                        },
+                        {
+                            cmd: false,
+                            text: '\\not\\simeq',
+                        },
+                        {
+                            cmd: false,
+                            text: '\\equiv',
+                        },
+                        {
+                            cmd: false,
+                            text: '\\therefore',
+                        },
+                        {
+                            cmd: false,
+                            text: '\\pm',
+                        },
+                        {
+                            cmd: false,
+                            text: '\\mp',
+                        },
+                        {
+                            cmd: false,
+                            text: '\\vdots',
+                        },
+                        {
+                            cmd: false,
+                            text: '\\not\\vdots',
+                        },
+                    ],
+                }
             ],
         };
     }
